@@ -14,7 +14,7 @@ const ChatForm = () => {
   const [question, setQuestion] = useState('');
   const [response, setResponse] = useState('');
   const [llm, setLLM] = useState('llama3:latest');
-  const [apiUrl, setApiUrl] = useState('http://localhost:8080/api/v1/chat');
+  const [apiUrl, setApiUrl] = useState('http://localhost:8081/api/v1/chat');
   const [customPrompt, setCustomPrompt] = useState('');
   const [isAdvancedOpen, setIsAdvancedOpen] = useState(false);
 
